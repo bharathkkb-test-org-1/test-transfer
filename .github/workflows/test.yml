@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: bharathkkb-test-org-1/github-actions/setup-gcloud@master # Transferred to bharathkkb-test-org-2/github-actions but should still work. # renamed to bharathkkb-test-org-2/setup-gcloud
+    - uses: bharathkkb-test-org-1/github-actions/setup-gcloud@master # Transferred to bharathkkb-test-org-2/github-actions but should still work. # renamed to bharathkkb-test-org-2/setup-gcloud # now it is top levelled 
   test-deploy-cloudrun:
     name: deploy-cloudrun-test
     runs-on: ubuntu-latest
