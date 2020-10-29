@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: bharathkkb-test-org-1/github-actions/setup-gcloud@master # Set up ADC for credentials
+    - uses: bharathkkb-test-org-1/github-actions/setup-gcloud@master # Transferred to bharathkkb-test-org-2/github-actions but should still work.
